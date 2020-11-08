@@ -27,5 +27,5 @@ pipeline {
         stage ('Deployment Stage') {
               bat "copy target\\TestProject-0.0.1-SNAPSHOT.war \"${tomcatWeb}\\TestProject-0.0.1-SNAPSHOT.war\""
         }
-    }
+    
 }
