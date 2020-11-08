@@ -30,7 +30,7 @@
     <repository>
       <id>tomcat-maven-plugin</id>
       <name>Releases</name>
-      <url>http://localhost:9999/mana</url>
+      <url>http://localhost:9999/manager/text</url>
     </repository>
     <snapshotRepository>
       <id>tomcat-maven-plugin</id>
