@@ -1,5 +1,6 @@
 
-def tomcatWeb = 'E:\apache-tomcat-9.0.33-windows-x64\apache-tomcat-9.0.33\webapps'
+def tomcatWeb = 'E:\\apache-tomcat-9.0.33-windows-x64\\apache-tomcat-9.0.33\\webapps'
+
 pipeline {
     agent any
 
