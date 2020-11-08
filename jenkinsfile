@@ -26,7 +26,6 @@ pipeline {
         stage ('Deployment Stage') {
             steps {
                 withMaven(maven : 'Maven_Install') {
-                    bat 'mvn deploy'
                     bat "copy target\\TestProject-0.0.1-SNAPSHOT.war \"${tomcatWeb}\\TestProject-0.0.1-SNAPSHOT.war\""
                 }
             }
