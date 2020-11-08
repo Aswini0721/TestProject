@@ -5,4 +5,13 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>TestProjectWar Maven Webapp</name>
   <packaging>war</packaging>
+  
+  <build>
+    <plugins>
+        <plugin>
+            <artifactId>maven-deploy-plugin</artifactId>
+            <version>3.0.0</version>
+        </plugin>
+    </plugins>
+</build>
 </project>
