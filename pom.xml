@@ -26,17 +26,17 @@
 		</plugins>
 </build>
 
- <distributionManagement>
+ <!--  <distributionManagement>
     <repository>
       <id>tomcat-maven-plugin</id>
       <name>Releases</name>
-      <url>http://localhost:9999/maven-releases</url>
+      <url>http://localhost:9999/mana</url>
     </repository>
     <snapshotRepository>
       <id>tomcat-maven-plugin</id>
       <name>Snapshot</name>
-      <url>http://localhost:9999/maven-snapshots</url>
+      <url>http://localhost:9999/</url>
     </snapshotRepository>
-</distributionManagement>
+</distributionManagement>-->
 
 </project>
