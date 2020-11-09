@@ -1,5 +1,5 @@
 
-def tomcatWeb = 'http:\\localhost:9999'
+def tomcatWeb = 'E:\\apache-tomcat-9.0.33-windows-x64\\apache-tomcat-9.0.33\\webapps'
 
 pipeline {
     agent any
@@ -27,7 +27,7 @@ pipeline {
         stage ('Deployment Stage') {
             steps {
                 withMaven(maven : 'Maven_Install') {
-                    bat "copy target\\TestProject-0.0.1-SNAPSHOT.war \"${tomcatWeb}\\TestProject-0.0.1-SNAPSHOT.war\""
+                    bat "copy target\\TestProject-0.0.1-SNAPSHOT.war /Y \"${tomcatWeb}\\TestProject-0.0.1-SNAPSHOT.war\""
                 }
             }
         }
