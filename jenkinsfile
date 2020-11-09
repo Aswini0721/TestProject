@@ -1,5 +1,5 @@
 
-def tomcatWeb = 'http://localhost:9999/manager/html'
+def tomcatWeb = 'http://localhost:9999/manager/text'
 
 pipeline {
     agent any
